@@ -34,6 +34,8 @@ lrwxrwxrwx 1 root root 4 Aug 14  2018 /usr/bin/sh -> bash
         ll
     # 以方便阅读的方式显示
         ll -h
+    # 查看文件i节点
+        ll -i
 
 # 新建文件
     touch xxx
