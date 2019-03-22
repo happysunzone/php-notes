@@ -11,6 +11,7 @@
   - [文本编辑器Vim](Linux/文本编辑器Vim.md)
   - [inode](Linux/inode.md)
   - [软链接和硬链接](Linux/软链接和硬链接.md)  
+  - [LinuxIO模型](Linux/LinuxIO模型.md)  
 
 - 计算机网络
   - [TCP三次握手和四次挥手](计算机网络/TCP三次握手和四次挥手.md)
