@@ -8,6 +8,9 @@
   - [HTTP请求头](#HTTP请求头)
   - [HTTP请求体](#HTTP请求体)
 - [HTTP响应消息](#HTTP响应消息)
+  - [HTTP响应行](#HTTP响应行)
+  - [HTTP响应头](#HTTP响应头)
+  - [HTTP响应体](#HTTP响应体)
 
 ### HTTP简介
 ```
@@ -82,13 +85,32 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
 头字段名称不区分大小写, 但习惯上将单词第一个字母大写
 
 # 常用的请求头
-    # Accept
-    
-Accept-Charset
-Accept-Encoding
-Accept-Language
-Host
-User-Agent
+Accept: 
+客户端可以接受的响应内容类型 
+   
+Accept-Charset: 
+客户端可以接受的字符集
+
+Accept-Encoding: 
+客户端能够进行解码的数据编码方式, 这里的编码方式通常指某种压缩方式
+
+Accept-Language: 
+客户端可以接受的语言列表
+
+Host: 
+指定资源所在的主机名和端口号, 80端口可以省略
+
+If-Modified-Since: 
+If-Modified-Since作为一个请求条件, 只有服务器资源的修改时间比If0Modified-Since请求头指定的时间新
+服务器才会返回资源, 否则服务器将返回304状态码而不是返回资源
+
+User-Agent: 
+用户代理, 用于指定客户端使用的操作系统、浏览器等信息
+
+Referer:
+如果直接在浏览器地址栏输入URL, 浏览器不会发送Referer请求头
+如果是点击网页上的超链接进入其它网页, 浏览器会使用Referer请求头字段标识发出请求的超链接所在网页的URL
+Referer头字段可以用于网站的防盗链
 ```
 #### HTTP请求体
 
@@ -98,3 +120,39 @@ User-Agent
 # 组成
 响应行 响应头 响应体
 ```
+
+#### HTTP响应行
+```
+# 实例
+HTTP/1.1 200 OK
+
+# 组成
+HTTP版本 状态码 状态码的描述信息
+
+# 格式
+响应行中每个部分用空格分隔, 最后以换行结束
+```
+
+#### HTTP响应头
+```
+# 响应头作用
+响应头用于向client传递附加信息, 例如服务器软件名(Server)、重定向地址(Location)等
+
+# 实例
+HTTP/1.1 304 Not Modified
+Cache-Control: max-age=0, must-revalidate
+Date: Sat, 23 Mar 2019 08:09:41 GMT
+Etag: 75e615640c596c76d8d3d3241c4f0170
+Server: apache
+Strict-Transport-Security: max-age=172800
+
+# 常用的响应头
+Location:
+通知客户端获取请求资源的新的URL, 该URL是绝对路径
+Location头字段和大多数3XX状态码配合使用, 以便通知客户端自动重新连接到新资源的请求URL
+
+Server:
+Server头字段用于指定服务器软件产品的名称
+```
+
+#### HTTP响应体
