@@ -1,5 +1,7 @@
 # HTTP概述
 
+@[TOC]目录
+
 ### HTTP简介
 ```
 # 介绍
@@ -12,12 +14,12 @@ HTTP是无状态协议
 请求/响应式
 ```
 
-### HTTP1.1相比于HTTP1.O的改进
+### HTTP1.1相比于HTTP1.0的改进
 ```
-HTTP1.0
+# HTTP1.0
 client的每次HTTP请求都需要和server建立一个TCP连接, server响应完成断开TCP连接, 这样无法复用TCP连接
 
-HTTP1.1
+# HTTP1.1
 1. HTTP1.1默认支持持久连接(增加了请求头Connection: keep-alive), 即一个TCP连接上可以传送多个HTTP请求和响应, 从而复用TCP连接
 2. 增加管道机制(pipelining)
 一个网页中含有多张图片, 这多张图片可以基于一个TCP连接
@@ -29,7 +31,7 @@ HTTP1.0认为每台服务器绑定唯一的IP地址, 所以请求头中没有传
 HTTP1.1增加Host请求头, server根据Host请求头区分客户端所要访问的虚拟WEB站点
 如果请求中没有Host请求头, 会报 400 Bad Request 错误
 
-比如:
+# 比如:
 www.baidu.com 的Host是 www.baidu.com
 xueshu.baidu.com 的Host是 xueshu.baidu.com
 ```
@@ -73,7 +75,8 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
 头字段名称不区分大小写, 但习惯上将单词第一个字母大写
 
 # 常用的请求头
-Accept
+    # Accept
+    
 Accept-Charset
 Accept-Encoding
 Accept-Language
