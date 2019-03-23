@@ -15,10 +15,11 @@
   - [如何平滑重启PHP-FPM](Linux/如何平滑重启PHP-FPM.md)
 
 - 计算机网络
+  - [计算机网络体系结构](计算机网络/计算机网络体系结构.md)
   - [TCP三次握手和四次挥手](计算机网络/TCP三次握手和四次挥手.md)
   - [TCP和UDP的区别](计算机网络/TCP和UDP的区别.md)
   - [HTTP概述](计算机网络/HTTP概述.md)
-  - [描述一次完整的HTTP请求过程](计算机网络/描述一次完整的HTTP请求过程.md)
+  - [一次完整的HTTP请求过程](计算机网络/一次完整的HTTP请求过程.md)
   - [GET和POST请求方式的区别](计算机网络/GET和POST请求方式的区别.md)
   - [常见的HTTP状态码](计算机网络/常见的HTTP状态码.md)
   - [会话技术(Cookie和Session)](计算机网络/会话技术(Cookie和Session).md)
