@@ -22,9 +22,9 @@
   - [TODO TCP和UDP的区别](计算机网络/TCP和UDP的区别.md)
   - [HTTP概述](计算机网络/HTTP概述.md)
   - [一次完整的HTTP请求过程](计算机网络/一次完整的HTTP请求过程.md)
-  - [TODO  GET和POST请求方式的区别](计算机网络/GET和POST请求方式的区别.md)
+  - [GET和POST请求方式的区别](计算机网络/GET和POST请求方式的区别.md)
   - [常见的HTTP状态码](计算机网络/常见的HTTP状态码.md)
-  - [TODO 会话技术(Cookie和Session)](计算机网络/会话技术(Cookie和Session).md)
+  - [会话技术(Cookie和Session)](计算机网络/会话技术(Cookie和Session).md)
   
 - 数据结构
 
