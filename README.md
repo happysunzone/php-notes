@@ -15,6 +15,7 @@
   - [如何平滑重启PHP-FPM](Linux/如何平滑重启PHP-FPM.md)
   - [TODO 进程和线程的区别](Linux/进程和线程的区别.md)
   - [TODO awk](Linux/awk.md)
+  - [并发和并行的区别](Linux/并发和并行的区别.md)
 
 - 计算机网络
   - [计算机网络体系结构](计算机网络/计算机网络体系结构.md)
