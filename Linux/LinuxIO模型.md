@@ -1,5 +1,21 @@
 # LinuxIO模型
 
+## 目录
+- [概念说明](#概念说明)
+  - [用户空间和内核空间](#用户空间和内核空间)
+  - [进程切换](#进程切换)
+  - [进程的阻塞](#进程的阻塞)
+  - [文件描述符fd](#文件描述符fd)
+  - [缓存I/O](#缓存I/O)
+- [Linux的5种IO模型](#Linux的5种IO模型)
+  - [阻塞IO](#阻塞IO)
+  - [非阻塞IO](#非阻塞IO)
+  - [多路复用IO](#多路复用IO)
+  - [信号驱动IO](#信号驱动IO)
+  - [异步IO](#异步IO)
+- [五个IO模型的比较](#五个IO模型的比较)
+- [参考](#参考)
+
 ### 概念说明
 首先理解下面概念
 - 用户空间和内核空间
@@ -8,7 +24,7 @@
 - 文件描述符fd
 - 缓存I/O
 
-### 用户空间和内核空间
+#### 用户空间和内核空间
 ```
 现代操作系统采用虚拟存储器, 那么对32位操作系统而言, 它的寻址空间(虚拟存储空间)为4G(2^32)
 操作系统的核心是内核, 不同于普通的应用程序, 内核可以访问受保护的内存空间, 也拥有访问底层硬件设备的所有权限
@@ -27,7 +43,7 @@ Linux系统的一次IO操作, 数据不会直接拷贝到用户空间缓冲区, 
 ```
 ![LinuxIO](https://raw.githubusercontent.com/duiying/img/master/LinuxIO.png)  
 
-### 进程切换
+#### 进程切换
 ```
 什么是进程切换?
 为了控制进程的执行, 内核必须有能力挂起正在CPU上运行的进程, 并恢复以前挂起的某个进程的执行, 这种行为被称为进程切换
@@ -46,7 +62,7 @@ Linux系统的一次IO操作, 数据不会直接拷贝到用户空间缓冲区, 
 6. 恢复处理机上下文
 ```
 
-### 进程的阻塞
+#### 进程的阻塞
 ```
 什么是进程的阻塞?
 正在执行的进程, 由于期待的某些事件未发生, 
@@ -59,7 +75,7 @@ Linux系统的一次IO操作, 数据不会直接拷贝到用户空间缓冲区, 
 3. 当进程进入阻塞状态, 不占用CPU资源
 ```
 
-### 文件描述符fd
+#### 文件描述符fd
 
 ```
 fd: file descriptor
@@ -69,7 +85,7 @@ fd: file descriptor
 ```
 ![linux-fd](https://raw.githubusercontent.com/duiying/img/master/linux-fd.png)
 
-### 缓存I/O
+#### 缓存I/O
 ```
 什么是缓存I/O?
 缓存I/O又称为标准I/O, 大多数文件系统的默认I/O操作都是缓存I/O
@@ -87,17 +103,77 @@ fd: file descriptor
 ### Linux的5种IO模型
 网络IO的本质是读取socket, socket在Linux系统中被抽象成流, IO可以理解为对流的操作  
 对于一次IO操作, 分为两个步骤:
-- 内核空间准备数据
-- 将数据从内核空间缓冲区拷贝到用户空间缓冲区
+- 过程-: 内核空间准备数据
+- 过程二: 将数据从内核空间缓冲区拷贝到用户空间缓冲区
 ```
 # Linux的5种IO模型
-1. 阻塞IO
-2. 非阻塞IO
-3. IO复用
-4. 信号驱动IO
-5. 异步IO
+1. 阻塞IO: BIO, blocking IO
+2. 非阻塞IO: NIO, nonblocking IO
+3. 多路复用IO: IO multiplexing
+4. 信号驱动IO: signal driven IO
+5. 异步IO: asynchronous IO
 ```
 
+#### 阻塞IO
+![阻塞IO](https://raw.githubusercontent.com/duiying/img/master/阻塞IO.png)
+```
+用户进程调用一个IO函数, 导致应用程序阻塞, 直到过程一和过程二完成以后, IO函数返回成功指示, 用户进程解除block的状态
+
+阻塞IO在IO执行的两个阶段都被block, 在等待数据返回的过程中不能进行其他操作
+```
+
+#### 非阻塞IO
+![非阻塞IO](https://raw.githubusercontent.com/duiying/img/master/非阻塞IO.png)
+```
+我们把SOCKET接口设置为非阻塞就是告诉内核, 当调用IO函数而内核空间数据未准备好时,
+不要将进程睡眠, 而是返回一个EWOULDBLOCK错误, 这样进程反复调用IO函数进行轮询, 
+直到内核空间数据准备好, 然后数据被拷贝到用户空间缓冲区, IO函数返回成功指示, 应用进程开始处理数据
+
+过程一需要不断的进行轮询, 不是阻塞状态
+过程二阻塞
+```
+
+#### 多路复用IO
+![多路复用IO](https://raw.githubusercontent.com/duiying/img/master/多路复用IO.png)
+```
+多路复用IO会用到 select、poll、epoll 函数, 这几个函数会使进程阻塞
+但是和阻塞IO不同的是, 这几个函数可以同时阻塞多个IO操作, 直到有数据可读或可写时, 才真正调用IO函数
+
+过程一是阻塞在select、poll、epoll 函数, 而真正的IO函数recvfrom是非阻塞的
+过程二阻塞
+```
+
+#### 信号驱动IO
+![信号驱动IO](https://raw.githubusercontent.com/duiying/img/master/信号驱动IO.png)
+```
+我们首先设置socket为一个信号驱动IO, 并且通过sigaction sytem call安装一个信号处理函数signal handler, 进程继续运行并不阻塞
+当内核空间准备好数据后, 进程会收到一个SIGIO信号, 可以在信号处理函数中调用IO操作函数处理数据
+
+过程一不阻塞
+过程二阻塞
+```
+
+#### 异步IO
+![异步IO](https://raw.githubusercontent.com/duiying/img/master/异步IO.png)
+```
+当一个异步过程调用发出后, 调用者不能立刻得到结果, 实际处理这个调用的部件在完成后,
+通过状态、通知和回调来通知调用者的输入输出操作
+
+过程一和过程二都不阻塞
+```
+
+### 五个IO模型的比较
+![五个IO模型的比较](https://raw.githubusercontent.com/duiying/img/master/五个IO模型的比较.png)
+```
+阻塞IO、非阻塞IO、多路复用IO、信号驱动IO 都属于同步IO, 只有异步IO才是异步IO
+
+阻塞IO和非阻塞IO的区别: 过程一(内核空间准备数据)进程是否阻塞
+同步IO和异步IO的区别: 过程二(将数据从内核空间缓冲区拷贝到用户空间缓冲区)进程是否阻塞
+```
+
+### 参考
+- [https://www.cnblogs.com/chaser24/p/6112071.html](https://www.cnblogs.com/chaser24/p/6112071.html)
+- [https://blog.csdn.net/qq_38847853/article/details/80789747](https://blog.csdn.net/qq_38847853/article/details/80789747)
 
 
 
