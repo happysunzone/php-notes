@@ -1,11 +1,11 @@
-# 查看端口
+# Linux下如何查看端口
 Linux下如何查看端口?
 
 ## 目录
-- [lsof -i](#lsof -i)
+- [lsof](#lsof)
 - [netstat](#netstat)
 
-### lsof -i
+### lsof
 ```
 # lsof -i命令用于查看端口占用情况
 

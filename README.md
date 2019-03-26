@@ -16,7 +16,7 @@
   - [TODO 进程和线程的区别](Linux/进程和线程的区别.md)
   - [TODO awk](Linux/awk.md)
   - [并发和并行的区别](Linux/并发和并行的区别.md)
-  - [查看端口](Linux/查看端口.md)
+  - [Linux下如何查看端口](Linux/Linux下如何查看端口.md)
 
 - 计算机网络
   - [计算机网络体系结构](计算机网络/计算机网络体系结构.md)
