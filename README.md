@@ -4,19 +4,19 @@
 ### 目录
 
 - Linux
+  - [inode](Linux/inode.md)
+  - [软链接和硬链接](Linux/软链接和硬链接.md)  
+  - [LinuxIO模型](Linux/LinuxIO模型.md)
+  - [并发和并行的区别](Linux/并发和并行的区别.md)
+  - [进程和线程的区别](Linux/进程和线程的区别.md)
+  - [协程](Linux/协程.md)
   - [Linux基本命令](Linux/Linux基本命令.md)
   - [文本处理工具sed](Linux/文本处理工具sed.md)
   - [文件统计wc](Linux/文件统计wc.md)
   - [定时任务crontab](Linux/定时任务crontab.md)
   - [文本编辑器Vim](Linux/文本编辑器Vim.md)
-  - [inode](Linux/inode.md)
-  - [软链接和硬链接](Linux/软链接和硬链接.md)  
-  - [LinuxIO模型](Linux/LinuxIO模型.md)
   - [如何平滑重启PHP-FPM](Linux/如何平滑重启PHP-FPM.md)
-  - [进程和线程的区别](Linux/进程和线程的区别.md)
-  - [协程](Linux/协程.md)
   - [TODO awk](Linux/awk.md)
-  - [并发和并行的区别](Linux/并发和并行的区别.md)
   - [Linux下如何查看端口](Linux/Linux下如何查看端口.md)
 
 - 计算机网络
