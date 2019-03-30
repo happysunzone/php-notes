@@ -1,4 +1,4 @@
-# CGI、FastCGI、PHP-FPM、PHP_CGI
+# CGI、FastCGI、PHP-FPM、PHP-CGI
 
 ### CGI
 ```

@@ -7,6 +7,7 @@
   - [inode](Linux/inode.md)
   - [软链接和硬链接](Linux/软链接和硬链接.md)  
   - [LinuxIO模型](Linux/LinuxIO模型.md)
+  - [select、poll、epoll](Linux/select、poll、epoll.md)
   - [并发和并行的区别](Linux/并发和并行的区别.md)
   - [进程和线程的区别](Linux/进程和线程的区别.md)
   - [协程](Linux/协程.md)
@@ -34,7 +35,7 @@
 - 算法
 
 - PHP
-  - [CGI、FastCGI、PHP-FPM、PHP_CGI](PHP/CGI、FastCGI、PHP-FPM、PHP_CGI.md)
+  - [CGI、FastCGI、PHP-FPM、PHP-CGI](PHP/CGI、FastCGI、PHP-FPM、PHP-CGI.md)
 
 - MySQL
   - [mysqldump命令](MySQL/mysqldump命令.md)

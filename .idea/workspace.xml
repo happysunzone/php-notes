@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f5a71c9-cdec-4107-a79d-cb6774b22cd2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/CGI、FastCGI、PHP-FPM、PHP_CGI.md" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/CGI、FastCGI、PHP-FPM、PHP-CGI.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,22 +23,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="66" />
+          <entry key="md" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="66" />
+          <entry key="Markdown" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="14149" />
+          <entry key="md" value="16220" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="14149" />
+          <entry key="Markdown" value="16220" />
         </counts>
       </usages-collector>
     </session>
@@ -49,20 +49,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="224">
-                <caret line="33" column="4" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP/CGI、FastCGI、PHP-FPM、PHP_CGI.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="2" selection-start-column="2" selection-end-column="29" />
+              <first_editor relative-caret-position="391">
+                <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
               </first_editor>
               <second_editor />
             </state>
@@ -105,6 +93,7 @@
         <option value="$PROJECT_DIR$/Linux/协程.md" />
         <option value="$PROJECT_DIR$/PHP/CGI、FastCGI、PHP-FPM、PHP_CGI.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Linux/select、poll、epoll.md" />
       </list>
     </option>
   </component>
@@ -144,6 +133,11 @@
               <item name="base" type="b2602c69:ProjectViewProjectNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
               <item name="MySQL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -188,12 +182,12 @@
       <updated>1552998990411</updated>
       <workItem from="1552998991604" duration="10076000" />
       <workItem from="1553219782678" duration="74744000" />
-      <workItem from="1553858373336" duration="7540000" />
+      <workItem from="1553858373336" duration="18980000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92360000" />
+    <option name="totallyTimeSpent" value="103800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -212,7 +206,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2019544" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.21281216" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -445,11 +439,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/CGI、FastCGI、PHP-FPM、PHP_CGI.md">
+    <entry file="file://$PROJECT_DIR$/PHP/CGI、FastCGI、PHP-FPM、PHP-CGI.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor>
-            <caret column="2" selection-start-column="2" selection-end-column="29" />
+            <caret column="26" selection-start-column="26" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linux/select、poll、epoll.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1932">
+            <caret line="84" column="91" selection-start-line="84" selection-start-column="91" selection-end-line="84" selection-end-column="91" />
           </first_editor>
           <second_editor />
         </state>
@@ -458,8 +462,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="224">
-            <caret line="33" column="4" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <first_editor relative-caret-position="391">
+            <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           </first_editor>
           <second_editor />
         </state>
