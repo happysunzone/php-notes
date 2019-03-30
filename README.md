@@ -34,6 +34,7 @@
 - 算法
 
 - PHP
+  - [CGI、FastCGI、PHP-FPM、PHP_CGI](PHP/CGI、FastCGI、PHP-FPM、PHP_CGI.md)
 
 - MySQL
   - [mysqldump命令](MySQL/mysqldump命令.md)
