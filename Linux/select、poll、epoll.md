@@ -39,10 +39,11 @@ epoll提供了三个函数: epoll_create, epoll_ctl和epoll_wait
 epoll_create: 创建一个epoll句柄, 建红黑树存储epoll_ctl传来的socket, 建立用来存储就绪事件的链表
 
 epoll_ctl: 
-1. 注册要监听的事件类型, 将刚建立的socket加入epoll让其监控或者把epoll正在监控的某个socket句柄移出epoll, 不再让epoll监控它
-2. 让current睡眠, 
+1. 注册要监听的事件类型, 将刚建立的socket加入epoll让其监控,
+  或者把epoll正在监控的某个socket句柄移出epoll, 不再让epoll监控它
+2. 让current睡眠
 3. 除了将socket加入epoll文件系统对应的红黑树, 还会给内核中断处理程序注册一个回调函数
-4. 该回调函数告诉内核, 如果这个socket句柄的中断到了, 就把该socket放在存储就绪事件的链表, 同时唤醒等待队列上的current进程
+4. 该回调函数告诉内核, 如果这个socket句柄的中断到了, 就把该socket放在存储就绪事件的链表, 同时唤醒等待队列上的进程
 
            
 epoll_wait: 等待事件的发生, 轮询就绪链表, 将就绪的socket拷贝到用户空间
