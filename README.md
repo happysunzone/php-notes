@@ -36,7 +36,7 @@
 
 - PHP
   - [CGI、FastCGI、PHP-FPM、PHP-CGI](PHP/CGI、FastCGI、PHP-FPM、PHP-CGI.md)
-  - [使用多种方法反转字符串](PHP/给出多种方法反转字符串.md)
+  - [给出多种方法反转字符串](PHP/给出多种方法反转字符串.md)
 
 - MySQL
   - [mysqldump命令](MySQL/mysqldump命令.md)
