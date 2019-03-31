@@ -43,6 +43,7 @@
   - [mysqldump命令](MySQL/mysqldump命令.md)
 
 - 设计模式
+  - [单例模式](设计模式/单例模式.md)
 
 - Redis
 
