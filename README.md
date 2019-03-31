@@ -37,6 +37,7 @@
 - PHP
   - [CGI、FastCGI、PHP-FPM、PHP-CGI](PHP/CGI、FastCGI、PHP-FPM、PHP-CGI.md)
   - [给出多种方法反转字符串](PHP/给出多种方法反转字符串.md)
+  - [写一个函数, 能够遍历一个文件夹下的所有文件和子文件夹](PHP/写一个函数,%20能够遍历一个文件夹下的所有文件和子文件夹.md)
 
 - MySQL
   - [mysqldump命令](MySQL/mysqldump命令.md)
