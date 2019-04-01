@@ -11,6 +11,7 @@
   - [并发和并行的区别](Linux/并发和并行的区别.md)
   - [进程和线程的区别](Linux/进程和线程的区别.md)
   - [协程](Linux/协程.md)
+  - [孤儿进程和僵尸进程](Linux/孤儿进程和僵尸进程.md)
   - [Linux基本命令](Linux/Linux基本命令.md)
   - [文本处理工具sed](Linux/文本处理工具sed.md)
   - [文件统计wc](Linux/文件统计wc.md)
@@ -36,8 +37,12 @@
 
 - PHP
   - [CGI、FastCGI、PHP-FPM、PHP-CGI](PHP/CGI、FastCGI、PHP-FPM、PHP-CGI.md)
-  - [给出多种方法反转字符串](PHP/给出多种方法反转字符串.md)
-  - [写一个函数, 能够遍历一个文件夹下的所有文件和子文件夹](PHP/写一个函数,%20能够遍历一个文件夹下的所有文件和子文件夹.md)
+  - PHP多进程
+    - [PHP多进程初探-创建子进程](PHP/PHP多进程初探-创建子进程.md)
+    - [PHP进程间通信](PHP/PHP进程间通信.md)
+  - 编程题
+    - [给出多种方法反转字符串](PHP/给出多种方法反转字符串.md)
+    - [写一个函数, 能够遍历一个文件夹下的所有文件和子文件夹](PHP/写一个函数,%20能够遍历一个文件夹下的所有文件和子文件夹.md)
 
 - MySQL
   - [mysqldump命令](MySQL/mysqldump命令.md)
