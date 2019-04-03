@@ -43,6 +43,7 @@
   - 编程题
     - [给出多种方法反转字符串](PHP/给出多种方法反转字符串.md)
     - [写一个函数, 能够遍历一个文件夹下的所有文件和子文件夹](PHP/写一个函数,%20能够遍历一个文件夹下的所有文件和子文件夹.md)
+    - [写一个函数将字符串'make_by_id'装换成'MakeById'](PHP/写一个函数将字符串'make_by_id'装换成'MakeById'.md)
 
 - MySQL
   - [mysqldump命令](MySQL/mysqldump命令.md)
