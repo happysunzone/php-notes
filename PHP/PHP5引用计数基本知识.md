@@ -1,11 +1,11 @@
 # PHP5引用计数基本知识
 
 ## 目录
-- [创建一个变量时,会生成一个新的zval容器](#创建一个变量时,会生成一个新的zval容器)
-- [变量赋值给另外一个变量时,会增加zval的refcount](#变量赋值给另外一个变量时,会增加zval的refcount)
-- [unset()时,会减少zval的refcount](#unset()时,会减少zval的refcount)
+- [创建一个变量时会生成一个新的zval容器](#创建一个变量时会生成一个新的zval容器)
+- [变量赋值给另外一个变量时会增加zval的refcount](#变量赋值给另外一个变量时会增加zval的refcount)
+- [unset()时会减少zval的refcount](#unset()时会减少zval的refcount)
 - [复合类型会为每个item项生成一个zval容器](#复合类型会为每个item项生成一个zval容器)
-- [添加一个元素到数组中,该元素指向数组其它元素指向的值](#添加一个元素到数组中,该元素指向数组其它元素指向的值)
+- [添加一个元素到数组中该元素指向数组其它元素指向的值](#添加一个元素到数组中该元素指向数组其它元素指向的值)
 - [从数组中删除元素](#从数组中删除元素)
 - [数组元素指向数组本身](#数组元素指向数组本身)
 - [清除zval容器的问题](#清除zval容器的问题)
@@ -16,7 +16,7 @@
 所有的符号存在一个符号表中, 其中每个符号都有作用于(scope).
 ```
 
-### 创建一个变量时,会生成一个新的zval容器
+### 创建一个变量时会生成一个新的zval容器
 ```php
 $a = 'new string';
 xdebug_debug_zval('a');
@@ -37,7 +37,7 @@ zval.type="string";
 zval.refcount__gc=1;
 ```
 
-### 变量赋值给另外一个变量时,会增加zval的refcount
+### 变量赋值给另外一个变量时会增加zval的refcount
 ```php
 $a = 'new string';
 $b = $a;
@@ -54,7 +54,7 @@ a: (refcount=2, is_ref=0)='new string'
 由于2个变量指向该zval容器, 所以refcount__gc为2.
 ```
 
-### unset()时,会减少zval的refcount
+### unset()时会减少zval的refcount
 ```php
 $a = 'new string';
 $c = $b = $a;
@@ -95,7 +95,7 @@ a: (refcount=1, is_ref=0)=array (
 对于每个zval, 其refcount的增减规则和普通变量相同.
 ``` 
 
-### 添加一个元素到数组中,该元素指向数组其它元素指向的值
+### 添加一个元素到数组中该元素指向数组其它元素指向的值
 ```php
 $a = array('meaning' => 'life', 'number' => 42);
 $a['life'] = $a['meaning'];
