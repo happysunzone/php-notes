@@ -36,6 +36,7 @@
 - 算法
 
 - PHP
+  - [PHP数据类型](PHP/PHP数据类型.md)
   - [CGI、FastCGI、PHP-FPM、PHP-CGI](PHP/CGI、FastCGI、PHP-FPM、PHP-CGI.md)
   - PHP多进程
     - [PHP多进程初探-创建子进程](PHP/PHP多进程初探-创建子进程.md)
@@ -43,6 +44,10 @@
       - [消息队列](PHP/消息队列.md)
       - [信号量和共享内存](PHP/信号量和共享内存.md)
       - [管道](PHP/管道.md)
+  - PHP内核
+    - [PHP5中的zval](PHP/PHP5中的zval.md)
+  - PHP垃圾回收
+    - [PHP5引用计数基本知识](PHP/PHP5引用计数基本知识.md)
   - 编程题
     - [给出多种方法反转字符串](PHP/给出多种方法反转字符串.md)
     - [写一个函数, 能够遍历一个文件夹下的所有文件和子文件夹](PHP/写一个函数,%20能够遍历一个文件夹下的所有文件和子文件夹.md)
