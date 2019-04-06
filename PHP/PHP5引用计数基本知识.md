@@ -6,7 +6,7 @@
 ## 目录
 - [创建一个变量时会生成一个新的zval容器](#创建一个变量时会生成一个新的zval容器)
 - [变量赋值给另外一个变量时会增加zval的refcount](#变量赋值给另外一个变量时会增加zval的refcount)
-- [unset()时会减少zval的refcount](#unset()时会减少zval的refcount)
+- [使用unset时会减少zval的refcount](#使用unset时会减少zval的refcount)
 - [复合类型会为每个item项生成一个zval容器](#复合类型会为每个item项生成一个zval容器)
 - [添加一个元素到数组中该元素指向数组其它元素指向的值](#添加一个元素到数组中该元素指向数组其它元素指向的值)
 - [从数组中删除元素](#从数组中删除元素)
@@ -16,7 +16,8 @@
 
 ```
 每个PHP变量都被保存在zval中, zval中包含变量的值、类型、是否被引用、指向该zval容器的变量(即符号也称symbol)个数.
-所有的符号存在一个符号表中, 其中每个符号都有作用于(scope).
+所有的符号存在一个符号表中, 其中每个符号都有作用域(scope).
+array和object类型的变量把它们的成员或属性存在自己的符号表中.
 ```
 
 ### 创建一个变量时会生成一个新的zval容器
@@ -57,7 +58,9 @@ a: (refcount=2, is_ref=0)='new string'
 由于2个变量指向该zval容器, 所以refcount__gc为2.
 ```
 
-### unset()时会减少zval的refcount
+### 使用unset时会减少zval的refcount
+
+
 ```php
 $a = 'new string';
 $c = $b = $a;

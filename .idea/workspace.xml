@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f5a71c9-cdec-4107-a79d-cb6774b22cd2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/PHP/PHP5.3中的垃圾回收机制.md" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/PHP5.3中的垃圾回收机制.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PHP/PHP5引用计数基本知识.md" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/PHP5引用计数基本知识.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,22 +24,22 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MD" value="1" />
-          <entry key="md" value="135" />
+          <entry key="md" value="142" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="136" />
+          <entry key="Markdown" value="143" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="23593" />
+          <entry key="md" value="24546" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="23586" />
+          <entry key="Markdown" value="24539" />
           <entry key="PHP" value="7" />
         </counts>
       </usages-collector>
@@ -47,24 +47,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PHP/PHP5.3中的垃圾回收机制.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="325">
-                <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+              <first_editor relative-caret-position="230">
+                <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PHP/PHP5.3中的垃圾回收机制.md">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PHP/PHP5引用计数基本知识.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="23">
-                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <first_editor relative-caret-position="327">
+                <caret line="96" selection-start-line="96" selection-end-line="96" selection-end-column="84" />
               </first_editor>
               <second_editor />
             </state>
@@ -130,8 +130,8 @@
         <option value="$PROJECT_DIR$/PHP/PHP5中的zval.md" />
         <option value="$PROJECT_DIR$/PHP/PHP5垃圾回收.md" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/PHP/PHP5.3中的垃圾回收机制.md" />
         <option value="$PROJECT_DIR$/PHP/PHP5引用计数基本知识.md" />
+        <option value="$PROJECT_DIR$/PHP/PHP5.3中的垃圾回收机制.md" />
       </list>
     </option>
   </component>
@@ -220,18 +220,18 @@
       <updated>1552998990411</updated>
       <workItem from="1552998991604" duration="10076000" />
       <workItem from="1553219782678" duration="74744000" />
-      <workItem from="1553858373336" duration="76191000" />
+      <workItem from="1553858373336" duration="85009000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161011000" />
+    <option name="totallyTimeSpent" value="169829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28464818" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12579957" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -647,6 +647,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="325">
+            <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PHP/PHP5中的zval.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -660,18 +670,8 @@
     <entry file="file://$PROJECT_DIR$/PHP/PHP5引用计数基本知识.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="69">
-            <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="325">
-            <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+          <first_editor relative-caret-position="327">
+            <caret line="96" selection-start-line="96" selection-end-line="96" selection-end-column="84" />
           </first_editor>
           <second_editor />
         </state>
@@ -680,8 +680,8 @@
     <entry file="file://$PROJECT_DIR$/PHP/PHP5.3中的垃圾回收机制.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="23">
-            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <first_editor relative-caret-position="230">
+            <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
           </first_editor>
           <second_editor />
         </state>
