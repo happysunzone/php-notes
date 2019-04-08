@@ -46,7 +46,9 @@
       - [管道](PHP/管道.md)
   - PHP内核
     - [PHP5中的zval](PHP/PHP5中的zval.md)
+    - [PHP7中的zval](PHP/PHP7中的zval.md)
     - [PHP弱类型是如何实现的](PHP/PHP弱类型是如何实现的.md)
+    - [PHP是如何实现二进制安全的](PHP/PHP是如何实现二进制安全的.md)
   - PHP垃圾回收
     - [PHP5引用计数基本知识](PHP/PHP5引用计数基本知识.md)
     - [PHP5.3中的垃圾回收机制](PHP/PHP5.3中的垃圾回收机制.md)
