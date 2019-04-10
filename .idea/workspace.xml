@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f5a71c9-cdec-4107-a79d-cb6774b22cd2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/PHP5中的zval.md" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/PHP5中的zval.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/PHP7中的zval.md" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/PHP7中的zval.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,23 +24,23 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MD" value="1" />
-          <entry key="md" value="157" />
+          <entry key="md" value="160" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="158" />
+          <entry key="Markdown" value="161" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="25749" />
+          <entry key="md" value="26793" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="25742" />
-          <entry key="PHP" value="7" />
+          <entry key="Markdown" value="26785" />
+          <entry key="PHP" value="8" />
         </counts>
       </usages-collector>
     </session>
@@ -58,12 +59,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PHP/PHP是如何实现二进制安全的.md">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/计算机网络/TCP三次握手和四次挥手.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="431">
-                <caret line="52" column="81" selection-start-line="52" selection-start-column="81" selection-end-line="52" selection-end-column="81" />
+              <first_editor relative-caret-position="363">
+                <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="71" />
               </first_editor>
               <second_editor />
             </state>
@@ -71,11 +72,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PHP/PHP是如何实现二进制安全的.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="914">
+                <caret line="52" column="81" selection-start-line="52" selection-start-column="81" selection-end-line="52" selection-end-column="81" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PHP/PHP7中的zval.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="46">
-                <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <first_editor relative-caret-position="440">
+                <caret line="166" column="99" selection-start-line="166" selection-start-column="99" selection-end-line="166" selection-end-column="99" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PHP/PHP5中的zval.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="23">
+                <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -138,14 +163,14 @@
         <option value="$PROJECT_DIR$/PHP/管道.md" />
         <option value="$PROJECT_DIR$/设计模式/适配器模式.md" />
         <option value="$PROJECT_DIR$/PHP/PHP数据类型.md" />
-        <option value="$PROJECT_DIR$/PHP/PHP5中的zval.md" />
         <option value="$PROJECT_DIR$/PHP/PHP5垃圾回收.md" />
         <option value="$PROJECT_DIR$/PHP/PHP5引用计数基本知识.md" />
         <option value="$PROJECT_DIR$/PHP/PHP5.3中的垃圾回收机制.md" />
         <option value="$PROJECT_DIR$/PHP/PHP弱类型是如何实现的.md" />
-        <option value="$PROJECT_DIR$/PHP/PHP7中的zval.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/PHP/PHP是如何实现二进制安全的.md" />
+        <option value="$PROJECT_DIR$/PHP/PHP5中的zval.md" />
+        <option value="$PROJECT_DIR$/PHP/PHP7中的zval.md" />
       </list>
     </option>
   </component>
@@ -156,10 +181,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1056" />
-    <option name="y" value="203" />
+    <option name="x" value="193" />
+    <option name="y" value="273" />
     <option name="width" value="1205" />
-    <option name="height" value="804" />
+    <option name="height" value="806" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -234,12 +259,12 @@
       <updated>1552998990411</updated>
       <workItem from="1552998991604" duration="10076000" />
       <workItem from="1553219782678" duration="74744000" />
-      <workItem from="1553858373336" duration="92564000" />
+      <workItem from="1553858373336" duration="100532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177384000" />
+    <option name="totallyTimeSpent" value="185352000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -602,16 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/计算机网络/TCP三次握手和四次挥手.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="363">
-            <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="71" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PHP/CGI、FastCGI、PHP-FPM、PHP-CGI.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -712,21 +727,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/PHP5中的zval.md">
+    <entry file="file://$PROJECT_DIR$/PHP/PHP是如何实现二进制安全的.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="989">
-            <caret line="43" column="19" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="19" />
+          <first_editor relative-caret-position="914">
+            <caret line="52" column="81" selection-start-line="52" selection-start-column="81" selection-end-line="52" selection-end-column="81" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/PHP7中的zval.md">
+    <entry file="file://$PROJECT_DIR$/PHP/PHP5中的zval.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="46">
-            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <first_editor relative-caret-position="23">
+            <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/计算机网络/TCP三次握手和四次挥手.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="363">
+            <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="71" />
           </first_editor>
           <second_editor />
         </state>
@@ -742,11 +767,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/PHP是如何实现二进制安全的.md">
+    <entry file="file://$PROJECT_DIR$/PHP/PHP7中的zval.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="431">
-            <caret line="52" column="81" selection-start-line="52" selection-start-column="81" selection-end-line="52" selection-end-column="81" />
+          <first_editor relative-caret-position="440">
+            <caret line="166" column="99" selection-start-line="166" selection-start-column="99" selection-end-line="166" selection-end-column="99" />
           </first_editor>
           <second_editor />
         </state>

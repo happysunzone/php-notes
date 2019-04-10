@@ -15,7 +15,7 @@ struct _zval_struct {
 };
 typedef struct _zval_struct zval;
 ```
-### 结构成员解释
+### 结构成员
 ```
 # zvalue_value value
 zvalue_value value存储变量的值, zvalue_value是一个联合体(union).
