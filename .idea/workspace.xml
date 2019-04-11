@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f5a71c9-cdec-4107-a79d-cb6774b22cd2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/计算机网络/HTTP概述.md" beforeDir="false" afterPath="$PROJECT_DIR$/计算机网络/HTTP概述.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,22 +23,22 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MD" value="1" />
-          <entry key="md" value="168" />
+          <entry key="md" value="170" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="169" />
+          <entry key="Markdown" value="171" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="27061" />
+          <entry key="md" value="27615" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="27053" />
+          <entry key="Markdown" value="27607" />
           <entry key="PHP" value="8" />
         </counts>
       </usages-collector>
@@ -46,24 +46,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="601">
-                <caret line="55" column="37" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="37" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PHP/PHP7中的垃圾回收机制.md">
+        <entry file="file://$PROJECT_DIR$/计算机网络/HTTP概述.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-2530">
-                <caret line="124" column="66" selection-start-line="124" selection-start-column="66" selection-end-line="124" selection-end-column="66" />
+              <first_editor relative-caret-position="506">
+                <caret line="88" column="3" lean-forward="true" selection-start-line="88" selection-start-column="3" selection-end-line="88" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -75,7 +63,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="363">
-                <caret line="24" column="69" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="69" />
+                <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="72" />
               </first_editor>
               <second_editor />
             </state>
@@ -104,7 +92,6 @@
         <option value="$PROJECT_DIR$/Linux/Linux基本命令.md" />
         <option value="$PROJECT_DIR$/Linux/软链接和硬链接.md" />
         <option value="$PROJECT_DIR$/Linux/inode.md" />
-        <option value="$PROJECT_DIR$/计算机网络/HTTP概述.md" />
         <option value="$PROJECT_DIR$/计算机网络/常见的HTTP状态码.md" />
         <option value="$PROJECT_DIR$/计算机网络/一次完整的HTTP请求过程.md" />
         <option value="$PROJECT_DIR$/计算机网络/TCP三次握手和四次挥手.md" />
@@ -149,6 +136,7 @@
         <option value="$PROJECT_DIR$/PHP/PHP7中的zend_reference.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/PHP/PHP7中的垃圾回收机制.md" />
+        <option value="$PROJECT_DIR$/计算机网络/HTTP概述.md" />
       </list>
     </option>
   </component>
@@ -237,18 +225,18 @@
       <updated>1552998990411</updated>
       <workItem from="1552998991604" duration="10076000" />
       <workItem from="1553219782678" duration="74744000" />
-      <workItem from="1553858373336" duration="104497000" />
+      <workItem from="1553858373336" duration="107662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189317000" />
+    <option name="totallyTimeSpent" value="192482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36567163" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1337953" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -261,7 +249,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.14006515" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.14006515" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -595,16 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/计算机网络/HTTP概述.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-296">
-            <caret line="126" selection-start-line="126" selection-end-line="126" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PHP/CGI、FastCGI、PHP-FPM、PHP-CGI.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -745,11 +723,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/PHP7中的垃圾回收机制.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-2530">
+            <caret line="124" column="66" selection-start-line="124" selection-start-column="66" selection-end-line="124" selection-end-column="66" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="601">
-            <caret line="55" column="37" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="37" />
+          <first_editor relative-caret-position="279">
+            <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
           </first_editor>
           <second_editor />
         </state>
@@ -759,17 +747,17 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="363">
-            <caret line="24" column="69" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="69" />
+            <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="72" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/PHP7中的垃圾回收机制.md">
+    <entry file="file://$PROJECT_DIR$/计算机网络/HTTP概述.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-2530">
-            <caret line="124" column="66" selection-start-line="124" selection-start-column="66" selection-end-line="124" selection-end-column="66" />
+          <first_editor relative-caret-position="506">
+            <caret line="88" column="3" lean-forward="true" selection-start-line="88" selection-start-column="3" selection-end-line="88" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>

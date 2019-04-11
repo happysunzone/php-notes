@@ -3,6 +3,7 @@
 ## 目录
 - [HTTP简介](#HTTP简介)
 - [HTTP1.1相比于HTTP1.0的改进](#HTTP1.1相比于HTTP1.0的改进)
+- [HTTP2.0相比于HTTP1.1的改进](#HTTP2.0相比于HTTP1.1的改进)
 - [HTTP请求消息](#HTTP请求消息)
   - [HTTP请求行](#HTTP请求行)
   - [HTTP请求头](#HTTP请求头)
@@ -45,6 +46,41 @@ HTTP1.1增加Host请求头, server根据Host请求头区分客户端所要访问
 www.baidu.com 的Host是 www.baidu.com
 xueshu.baidu.com 的Host是 xueshu.baidu.com
 ```
+
+### HTTP2.0相比于HTTP1.1的改进
+采用二进制格式而非文本格式
+```
+HTTP1.1请求头是文本, 请求体可以是文本或二进制.
+HTTP2无论是请求头还是请求体都是二进制.
+基于文本格式的协议解析存在天然缺陷, 文本的的表现形式有多样性, 要做到健壮性需要考虑很多场景.
+基于二进制格式的协议解析只认0和1的组合, 实现方便且健壮.
+```
+
+多路复用
+```
+在一个TCP连接里, client和server都可以同时发送多个请求和响应, 而且不用按照顺序一一对应.
+```
+![http-multi](https://raw.githubusercontent.com/duiying/img/master/http-multi.png)   
+
+首部压缩
+```
+HTTP1.X的请求头带有大量信息, 而且每次都要重新发送.
+HTTP2.0使用encoder来减少需要传输的header的大小, client和server各自cache一份header fields表,
+既避免了重复header的传输, 又减小了需要传输的大小.
+```
+
+服务端推送
+```
+服务端推送是一种在客户端请求之前发送数据的机制.
+当代网页使用了许多资源: HTML、样式表、脚本、图片等等, 在HTTP/1.x中这些资源每一个都必须明确地请求.
+这可能是一个很慢的过程, 浏览器从获取HTML开始, 然后在它解析和评估页面的时候, 增量地获取更多的资源.
+因为服务器必须等待浏览器做每一个请求, 网络经常是空闲的和未充分使用的.
+
+为了改善延迟, HTTP/2引入了server push, 它允许服务端推送资源给浏览器.
+在浏览器明确地请求之前, 一个服务器经常知道一个页面需要很多附加资源, 在它响应浏览器第一个请求的时候, 可以开始推送这些资源.
+这允许服务端去完全充分地利用一个可能空闲的网络, 改善页面加载时间.
+```
+![http-push](https://raw.githubusercontent.com/duiying/img/master/http-push.png)   
 
 ### HTTP请求消息
 ```
@@ -156,3 +192,6 @@ Server头字段用于指定服务器软件产品的名称
 ```
 
 #### HTTP响应体
+
+### 参考
+- [https://www.doc11.com/p/2834.html](https://www.doc11.com/p/2834.html)
