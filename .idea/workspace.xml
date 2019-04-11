@@ -23,22 +23,22 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MD" value="1" />
-          <entry key="md" value="165" />
+          <entry key="md" value="168" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="166" />
+          <entry key="Markdown" value="169" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="27010" />
+          <entry key="md" value="27061" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="27002" />
+          <entry key="Markdown" value="27053" />
           <entry key="PHP" value="8" />
         </counts>
       </usages-collector>
@@ -50,8 +50,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="509">
-                <caret line="51" column="45" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
+              <first_editor relative-caret-position="601">
+                <caret line="55" column="37" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="37" />
               </first_editor>
               <second_editor />
             </state>
@@ -59,11 +59,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PHP/PHP7中的zend_reference.md">
+        <entry file="file://$PROJECT_DIR$/PHP/PHP7中的垃圾回收机制.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="322">
-                <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+              <first_editor relative-caret-position="-2530">
+                <caret line="124" column="66" selection-start-line="124" selection-start-column="66" selection-end-line="124" selection-end-column="66" />
               </first_editor>
               <second_editor />
             </state>
@@ -71,11 +71,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP/PHP7中的zval.md">
+        <entry file="file://$PROJECT_DIR$/计算机网络/TCP三次握手和四次挥手.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="552">
-                <caret line="39" column="25" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="25" />
+              <first_editor relative-caret-position="363">
+                <caret line="24" column="69" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="69" />
               </first_editor>
               <second_editor />
             </state>
@@ -146,8 +146,9 @@
         <option value="$PROJECT_DIR$/PHP/PHP5中的zval.md" />
         <option value="$PROJECT_DIR$/PHP/PHP7中的zval.md" />
         <option value="$PROJECT_DIR$/PHP/[PHP7中的zend_reference.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/PHP/PHP7中的zend_reference.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/PHP/PHP7中的垃圾回收机制.md" />
       </list>
     </option>
   </component>
@@ -158,8 +159,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1053" />
-    <option name="y" value="230" />
+    <option name="x" value="559" />
+    <option name="y" value="240" />
     <option name="width" value="1205" />
     <option name="height" value="806" />
   </component>
@@ -236,18 +237,18 @@
       <updated>1552998990411</updated>
       <workItem from="1552998991604" duration="10076000" />
       <workItem from="1553219782678" duration="74744000" />
-      <workItem from="1553858373336" duration="103076000" />
+      <workItem from="1553858373336" duration="104497000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187896000" />
+    <option name="totallyTimeSpent" value="189317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12526652" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36567163" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -724,11 +725,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/计算机网络/TCP三次握手和四次挥手.md">
+    <entry file="file://$PROJECT_DIR$/PHP/PHP7中的zend_reference.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="363">
-            <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="71" />
+          <first_editor relative-caret-position="322">
+            <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
           </first_editor>
           <second_editor />
         </state>
@@ -747,18 +748,28 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="509">
-            <caret line="51" column="45" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
+          <first_editor relative-caret-position="601">
+            <caret line="55" column="37" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="37" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/PHP7中的zend_reference.md">
+    <entry file="file://$PROJECT_DIR$/计算机网络/TCP三次握手和四次挥手.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="322">
-            <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <first_editor relative-caret-position="363">
+            <caret line="24" column="69" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="69" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/PHP7中的垃圾回收机制.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-2530">
+            <caret line="124" column="66" selection-start-line="124" selection-start-column="66" selection-end-line="124" selection-end-column="66" />
           </first_editor>
           <second_editor />
         </state>
