@@ -38,6 +38,8 @@
 - PHP
   - [PHP数据类型](PHP/PHP数据类型.md)
   - [CGI、FastCGI、PHP-FPM、PHP-CGI](PHP/CGI、FastCGI、PHP-FPM、PHP-CGI.md)
+  - [Trait](PHP/Trait.md)
+  - [yield](PHP/yield.md)
   - PHP多进程
     - [PHP多进程初探-创建子进程](PHP/PHP多进程初探-创建子进程.md)
     - [PHP进程间通信](PHP/PHP进程间通信.md)
@@ -47,6 +49,7 @@
   - PHP内核
     - [PHP5中的zval](PHP/PHP5中的zval.md)
     - [PHP7中的zval](PHP/PHP7中的zval.md)
+    - [PHP7中数组的实现原理](PHP/PHP7中数组的实现原理.md)
     - [PHP弱类型是如何实现的](PHP/PHP弱类型是如何实现的.md)
     - [PHP是如何实现二进制安全的](PHP/PHP是如何实现二进制安全的.md)
     - [PHP7中的zend_reference](PHP/PHP7中的zend_reference.md)
