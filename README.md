@@ -20,6 +20,7 @@
   - [如何平滑重启PHP-FPM](Linux/如何平滑重启PHP-FPM.md)
   - [TODO awk](Linux/awk.md)
   - [Linux下如何查看端口](Linux/Linux下如何查看端口.md)
+  - [CentOS7搭建samba实现与Win共享目录](Linux/CentOS7搭建samba实现与Win共享目录.md)
 
 - 计算机网络
   - [计算机网络体系结构](计算机网络/计算机网络体系结构.md)
