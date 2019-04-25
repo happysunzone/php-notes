@@ -65,6 +65,7 @@
     - [写一个函数将字符串'make_by_id'装换成'MakeById'](PHP/写一个函数将字符串'make_by_id'装换成'MakeById'.md)
     - [写一个函数, 统计一个字符串中另一个字符串出现的次数](PHP/写一个函数,%20统计一个字符串中另一个字符串出现的次数.md)
     - [求n以内的质数](PHP/求n以内的质数.md)
+    - [求两个有序数组的公共元素](PHP/求两个有序数组的公共元素.md)
 
 - MySQL
   - [mysqldump命令](MySQL/mysqldump命令.md)
