@@ -69,6 +69,7 @@
 
 - MySQL
   - [mysqldump命令](MySQL/mysqldump命令.md)
+  - [数据库三范式](MySQL/数据库三范式.md)
 
 - 设计模式
   - [设计模式简介](设计模式/设计模式简介.md)
