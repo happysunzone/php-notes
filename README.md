@@ -70,6 +70,10 @@
 - MySQL
   - [mysqldump命令](MySQL/mysqldump命令.md)
   - [数据库三范式](MySQL/数据库三范式.md)
+  - [MySQL索引](MySQL/MySQL索引.md)
+  - [表的约束](MySQL/表的约束.md)
+  - [MyISAM和InnoDB的区别](MySQL/MyISAM和InnoDB的区别.md)
+  - [char和varchar数据类型的区别](MySQL/char和varchar数据类型的区别.md)
 
 - 设计模式
   - [设计模式简介](设计模式/设计模式简介.md)
