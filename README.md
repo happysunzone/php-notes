@@ -74,7 +74,7 @@
   - [表的约束](MySQL/表的约束.md)
   - [MyISAM和InnoDB的区别](MySQL/MyISAM和InnoDB的区别.md)
   - [char和varchar数据类型的区别](MySQL/char和varchar数据类型的区别.md)
-  - [TINYINT(M)中M表示的含义是什么](TINYINT(M)中M表示的含义是什么.md)
+  - [TINYINT(M)中M表示的含义是什么](MySQL/TINYINT(M)中M表示的含义是什么.md)
 
 - 设计模式
   - [设计模式简介](设计模式/设计模式简介.md)
