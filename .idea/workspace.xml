@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6f5a71c9-cdec-4107-a79d-cb6774b22cd2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/MySQL/TINYINT(M)中M表示的含义是什么.md" beforeDir="false" afterPath="$PROJECT_DIR$/MySQL/TINYINT(M)中M表示的含义是什么.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,8 +92,8 @@
         <entry file="file://$PROJECT_DIR$/MySQL/TINYINT(M)中M表示的含义是什么.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="23">
-                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <first_editor relative-caret-position="46">
+                <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
               </first_editor>
               <second_editor />
             </state>
@@ -275,12 +274,12 @@
       <workItem from="1555127987465" duration="22217000" />
       <workItem from="1555592385933" duration="2914000" />
       <workItem from="1555664860911" duration="31178000" />
-      <workItem from="1556291969224" duration="2173000" />
+      <workItem from="1556291969224" duration="2351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251910000" />
+    <option name="totallyTimeSpent" value="252088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -838,8 +837,8 @@
     <entry file="file://$PROJECT_DIR$/MySQL/TINYINT(M)中M表示的含义是什么.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="23">
-            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <first_editor relative-caret-position="46">
+            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
           </first_editor>
           <second_editor />
         </state>
