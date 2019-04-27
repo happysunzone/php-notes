@@ -75,6 +75,7 @@
   - [MyISAM和InnoDB的区别](MySQL/MyISAM和InnoDB的区别.md)
   - [char和varchar数据类型的区别](MySQL/char和varchar数据类型的区别.md)
   - [TINYINT(M)中M表示的含义是什么](MySQL/TINYINT(M)中M表示的含义是什么.md)
+  - [浮点型和定点型](MySQL/浮点型和定点型.md)
 
 - 设计模式
   - [设计模式简介](设计模式/设计模式简介.md)
