@@ -77,6 +77,8 @@
   - [TINYINT(M)中M表示的含义是什么](MySQL/TINYINT(M)中M表示的含义是什么.md)
   - [浮点型和定点型](MySQL/浮点型和定点型.md)
   - [手写建表语句和sql](MySQL/手写建表语句和sql.md)
+  - [MySQL事务的4个特性](MySQL/MySQL事务的4个特性.md)
+  - [事务的隔离级别](MySQL/事务的隔离级别.md)
 
 - 设计模式
   - [设计模式简介](设计模式/设计模式简介.md)
