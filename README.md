@@ -18,7 +18,6 @@
   - [定时任务crontab](Linux/定时任务crontab.md)
   - [文本编辑器Vim](Linux/文本编辑器Vim.md)
   - [如何平滑重启PHP-FPM](Linux/如何平滑重启PHP-FPM.md)
-  - [TODO awk](Linux/awk.md)
   - [Linux下如何查看端口](Linux/Linux下如何查看端口.md)
   - [CentOS7搭建samba实现与Win共享目录](Linux/CentOS7搭建samba实现与Win共享目录.md)
   - [取出Nginx日志里访问量前N的IP地址](Linux/取出Nginx日志里访问量前N的IP地址.md)
@@ -37,6 +36,7 @@
 - 数据结构
 
 - 算法
+  - [认识时间复杂度](算法/认识时间复杂度.md)
 
 - PHP
   - [PHP数据类型](PHP/PHP数据类型.md)
