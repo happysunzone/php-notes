@@ -1,5 +1,7 @@
-# 一个后端程序员的笔记库
-每天更新...
+<h1 align="center"> php-notes </h1> 
+<p align="center"> 
+Linux、计算机网络、数据结构、算法、PHP、MySQL、设计模式、Redis、MQ、安全、思维题、报错总结......
+</p>
 
 ### 目录
 
