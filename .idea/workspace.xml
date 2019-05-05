@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6f5a71c9-cdec-4107-a79d-cb6774b22cd2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/算法/归并排序.md" beforeDir="false" afterPath="$PROJECT_DIR$/算法/归并排序.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,22 +57,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="46" />
+          <entry key="md" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="46" />
+          <entry key="Markdown" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="6716" />
+          <entry key="md" value="7371" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="6716" />
+          <entry key="Markdown" value="7371" />
         </counts>
       </usages-collector>
     </session>
@@ -82,8 +83,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="299">
-                <caret line="40" column="25" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="25" />
+              <first_editor relative-caret-position="460">
+                <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -91,11 +92,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/算法/归并排序.md">
+        <entry file="file://$PROJECT_DIR$/算法/小和问题.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="702">
-                <caret line="140" column="26" selection-start-line="140" selection-start-column="26" selection-end-line="140" selection-end-column="26" />
+              <first_editor relative-caret-position="276">
+                <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
               </first_editor>
               <second_editor />
             </state>
@@ -152,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PHP/写一个函数将字符串'make_by_id'装换成'MakeById'.md" />
         <option value="$PROJECT_DIR$/PHP/PHP进程间通信.md" />
         <option value="$PROJECT_DIR$/PHP/消息队列.md" />
         <option value="$PROJECT_DIR$/PHP/信号量和共享内存.md" />
@@ -203,6 +203,7 @@
         <option value="$PROJECT_DIR$/算法/递归行为的实质和递归行为时间复杂度的计算.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/算法/归并排序.md" />
+        <option value="$PROJECT_DIR$/算法/小和问题.md" />
       </list>
     </option>
   </component>
@@ -213,8 +214,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
-    <option name="y" value="18" />
+    <option name="x" value="962" />
+    <option name="y" value="172" />
     <option name="width" value="1624" />
     <option name="height" value="804" />
   </component>
@@ -292,12 +293,12 @@
       <workItem from="1555592385933" duration="2914000" />
       <workItem from="1555664860911" duration="31178000" />
       <workItem from="1556291969224" duration="26712000" />
-      <workItem from="1556937645393" duration="17433000" />
+      <workItem from="1556937645393" duration="20091000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="293882000" />
+    <option name="totallyTimeSpent" value="296540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -316,7 +317,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.1324647" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.39196527" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -352,16 +353,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PHP/PHP多进程初探-创建子进程.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="470">
-            <caret line="23" selection-start-line="23" selection-end-line="24" selection-end-column="37" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PHP/PHP数据类型.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -823,16 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="299">
-            <caret line="40" column="25" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/算法/递归行为的实质和递归行为时间复杂度的计算.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -846,8 +827,28 @@
     <entry file="file://$PROJECT_DIR$/算法/归并排序.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="702">
-            <caret line="140" column="26" selection-start-line="140" selection-start-column="26" selection-end-line="140" selection-end-column="26" />
+          <first_editor relative-caret-position="115">
+            <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="460">
+            <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/算法/小和问题.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="276">
+            <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
           </first_editor>
           <second_editor />
         </state>
