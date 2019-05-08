@@ -1,4 +1,4 @@
-<h1 align="center"> php-notes </h1> 
+<h1 align="center"> php-notes </h1>
 <p align="center"> 
 Linux、计算机网络、数据结构、算法、PHP、MySQL、设计模式、Redis、MQ、安全、思维题、报错总结......
 </p>
@@ -48,6 +48,7 @@ Linux、计算机网络、数据结构、算法、PHP、MySQL、设计模式、R
     - [归并排序](算法/归并排序.md)
     
   - [小和问题](算法/小和问题.md)
+  - [荷兰国旗问题](算法/荷兰国旗问题.md)
 
 - PHP
   - [PHP数据类型](PHP/PHP数据类型.md)
