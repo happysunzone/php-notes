@@ -1,4 +1,5 @@
 <h1 align="center"> php-notes </h1>
+<h3 align="center"> 用markdown记录面试中可能遇到的知识点, 每周更新篇数 > 2 </h3>
 <p align="center"> 
 Linux、计算机网络、数据结构、算法、PHP、MySQL、设计模式、Redis、MQ、安全、思维题、报错总结......
 </p>
@@ -115,6 +116,9 @@ Linux、计算机网络、数据结构、算法、PHP、MySQL、设计模式、R
 - MQ
 
 - 安全
+  - SQL注入
+  - XSS
+  - CSRF
 
 - 思维题
   - [小鼠喝牛奶](思维题/小鼠喝牛奶.md)
